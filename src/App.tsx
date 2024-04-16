@@ -4,6 +4,7 @@ import {Header} from "./components/header/Header";
 import {Navbar} from "./components/navbar/Navbar";
 import {MyPosts} from "./components/profile/myPosts/MyPosts";
 import {Profile} from "./components/profile/Profile";
+import {Dialogs} from "./components/dialogs/Dialogs";
 
 
 function App() {
@@ -11,7 +12,10 @@ function App() {
     <div className="app-wrapper">
         <Header/>
         <Navbar/>
-        <Profile/>
+        <div className="app-wrapper-content">
+            {/*<Profile/>*/}
+            <Dialogs/>
+        </div>
     </div>
   );
 }

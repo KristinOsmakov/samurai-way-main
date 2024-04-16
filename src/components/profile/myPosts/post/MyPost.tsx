@@ -11,7 +11,7 @@ export const MyPost = ({message, liked}: Props) => {
         <div className={styles.item}>
             <img src='https://marketplace.canva.com/EAFauoQSZtY/1/0/1600w/canva-brown-mascot-lion-free-logo-qJptouniZ0A.jpg'/>
             {message}
-            <span>like {liked}</span>
+            <span>like</span> {liked}
 
         </div>
     );

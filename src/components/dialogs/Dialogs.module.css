@@ -1,0 +1,11 @@
+.dialogWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    border-right: 1px solid black;
+}
+.liStyle {
+    margin-bottom: 10px;
+}
+
+
